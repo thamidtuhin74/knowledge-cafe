@@ -9,6 +9,11 @@
 }
 .sidebar{
     width: 100%;
-    background: blanchedalmond;
-    border-radius: 10px;
+}
+@media only screen and (max-device-width: 480px) {
+    .blog-page-container{
+        /* display: grid; */
+        grid-template-columns: 1fr;
+    }
+    /* STYLES HERE */
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Blog from './Blog/Blog';
 import "./BlogPage.css";
+import Sidebar from './Sidebar/Sidebar';
 
 // import React, { useEffect, useState } from 'react';
 
@@ -28,7 +29,7 @@ const BlogPage = () => {
                 }
             </div>
             <div className="sidebar">
-                sidebar
+                <Sidebar></Sidebar>
             </div>
             
         </div>

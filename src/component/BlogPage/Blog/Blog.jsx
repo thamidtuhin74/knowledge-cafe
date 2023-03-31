@@ -6,11 +6,7 @@ const Blog = (props) => {
     console.log('blog :',props.blog);
 
     const {title, img,author, authorImg,date,time,tags} = props.blog; 
-    // console.log('Title : ',title);
-
-    // const blog =  props.blog;
-
-    // console.log('blog :',blog);
+    
     return (
         <div className='blog-wrapper'>
             {
