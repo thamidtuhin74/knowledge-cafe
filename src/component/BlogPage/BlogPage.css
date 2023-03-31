@@ -1,0 +1,14 @@
+.blog-page-container{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+.blogs{
+    width: 100%;
+    background: rgb(193, 156, 230);
+    border-radius: 10px;
+}
+.sidebar{
+    width: 100%;
+    background: blanchedalmond;
+    border-radius: 10px;
+}
