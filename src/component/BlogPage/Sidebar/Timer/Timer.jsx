@@ -1,10 +1,12 @@
 import React from 'react';
 import './Timer.css'
 
-const Timer = () => {
+const Timer = (props) => {
+    console.log('Timer total time : ', props.totalTime);
+
     return (
         <div className='timmer'>
-            <h3>Spend time or read : 177 min</h3>
+            <h3>Spend time or read : {props.totalTime}</h3>
         </div>
     );
 };

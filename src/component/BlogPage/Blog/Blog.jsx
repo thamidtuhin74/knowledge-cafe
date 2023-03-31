@@ -4,14 +4,18 @@ import './Blog.css'
 const Blog = (props) => {
     console.log('Props :',props);
     console.log('blog :',props.blog);
-
-    const {title, img,author, authorImg,date,time,tags} = props.blog; 
-    
+    // console.log('key :',props.key);
+    const markAsReadhandler = props.markAsReadhandler;
+    const {title, img,author, authorImg,date,time,tags,id} = props.blog; 
+    // const markAsReadhandler = (blog) =>{
+    //     console.log('post ID : ',blog.id);
+    // }
     return (
         <div className='blog-wrapper'>
             {
+
                 <div>
-                    
+                    <h1>{id}</h1>
                     <img src={img} alt="" />
                 
                     <div className='blog-header'>
@@ -27,7 +31,8 @@ const Blog = (props) => {
                 
                     <h3 id='blog-title'>{title}</h3>
                     <p id='tags'>{tags}</p>
-                    <a href='#'>Mark as Read</a>
+                    
+                    <button onClick={()=>{markAsReadhandler(props.blog)}} href='/'>Mark as Read</button>
 
                 </div>
                 

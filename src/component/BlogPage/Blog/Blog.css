@@ -4,6 +4,11 @@
     border-bottom: 1px solid #111111;
     margin-bottom: 40px;
 }
+.blog-wrapper a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
 
 .blog-wrapper img{
     width: 100%;

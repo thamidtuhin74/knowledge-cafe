@@ -1,7 +1,7 @@
 [
     
     {
-        "id ": "0001",
+        "id": "0001",
         "author":"Mr. Raju",
         "title":"How to get your first job as a self-taught programmer",
         "img":"https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
@@ -11,7 +11,7 @@
         "tags":["beginner","programming"]
     },
     {
-        "id ": "0010",
+        "id": "0010",
         "author":"Mr. Setara",
         "title":"How to get your first job as a self-taught programmer",
         "img":"https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg",
@@ -21,7 +21,7 @@
         "tags":["beginner","programming"]
     },
     {
-        "id ": "0011",
+        "id": "0011",
         "author":"Mina Mostofa",
         "title":"How to get your first job as a self-taught programmer",
         "img":"https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg",
@@ -31,7 +31,7 @@
         "tags":["beginner","programming"]
     },
     {
-        "id ": "0100",
+        "id": "0100",
         "author":"Mr. Raju",
         "title":"How to get your first job as a self-taught programmer",
         "img":"https://media.istockphoto.com/id/1372353160/photo/young-asian-programmer-working-at-office.jpg?s=612x612&w=0&k=20&c=LO6IHvBGpqS798EZ6rmoJ8XtPs5iureu-pl38V1WxuA=",

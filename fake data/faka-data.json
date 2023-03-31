@@ -1,43 +1,43 @@
 [
     
     {
-        "id ": "0001",
+        "id": "0001",
         "author":"Mr. Raju",
-        "blog-title":"How to get your first job as a self-taught programmer",
-        "blog-img":"https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
-        "author-img":"https://img.freepik.com/free-photo/man-isolated-showing-emotions-end-gestures_1303-30095.jpg",
-        "read-time":"5",
-        "publish-date":"Mar14",
+        "title":"How to get your first job as a self-taught programmer",
+        "img":"https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg",
+        "authorImg":"https://img.freepik.com/free-photo/man-isolated-showing-emotions-end-gestures_1303-30095.jpg",
+        "time":"5",
+        "date":"Mar14",
         "tags":["beginner","programming"]
     },
     {
-        "id ": "0010",
+        "id": "0010",
         "author":"Mr. Setara",
-        "blog-title":"How to get your first job as a self-taught programmer",
-        "blog-img":"https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg",
-        "author-img":"https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg",
-        "read-time":"5",
-        "publish-date":"Mar14",
+        "title":"How to get your first job as a self-taught programmer",
+        "img":"https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg",
+        "authorImg":"https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg",
+        "time":"5",
+        "date":"Mar14",
         "tags":["beginner","programming"]
     },
     {
-        "id ": "0011",
+        "id": "0011",
         "author":"Mina Mostofa",
-        "blog-title":"How to get your first job as a self-taught programmer",
-        "blog-img":"https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg",
-        "author-img":"https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg",
-        "read-time":"5",
-        "publish-date":"Mar14",
+        "title":"How to get your first job as a self-taught programmer",
+        "img":"https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg",
+        "authorImg":"https://img.freepik.com/free-photo/handsome-bearded-businessman-rubbing-hands-having-deal_176420-18778.jpg",
+        "time":"5",
+        "date":"Mar14",
         "tags":["beginner","programming"]
     },
     {
-        "id ": "0100",
+        "id": "0100",
         "author":"Mr. Raju",
-        "blog-title":"How to get your first job as a self-taught programmer",
-        "blog-img":"https://media.istockphoto.com/id/1372353160/photo/young-asian-programmer-working-at-office.jpg?s=612x612&w=0&k=20&c=LO6IHvBGpqS798EZ6rmoJ8XtPs5iureu-pl38V1WxuA=",
-        "author-img":"https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpghttps://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg",
-        "read-time":"5",
-        "publish-date":"Mar14",
+        "title":"How to get your first job as a self-taught programmer",
+        "img":"https://media.istockphoto.com/id/1372353160/photo/young-asian-programmer-working-at-office.jpg?s=612x612&w=0&k=20&c=LO6IHvBGpqS798EZ6rmoJ8XtPs5iureu-pl38V1WxuA=",
+        "authorImg":"https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpghttps://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg",
+        "time":"5",
+        "date":"Mar14",
         "tags":["beginner","programming"]
     }
 ]
