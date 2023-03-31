@@ -6,7 +6,6 @@ import Header from './component/Header/Header'
 import BlogPage from './component/BlogPage/BlogPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
