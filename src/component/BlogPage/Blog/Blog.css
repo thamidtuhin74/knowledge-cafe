@@ -77,3 +77,15 @@
 .btn-markAsRead:focus-visible {
     outline: 0px;
   }
+@media only screen and (max-device-width: 480px) {
+    .blog-page-container{
+        /* display: grid; */
+        grid-template-columns: 1fr;
+    }
+    .blog-wrapper img{
+        width: 400px;
+        height: 450px;
+        border-radius: 8px;
+    }
+    /* STYLES HERE */
+}
