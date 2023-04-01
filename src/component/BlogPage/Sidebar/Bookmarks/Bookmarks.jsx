@@ -3,7 +3,6 @@ import './Bookmarks.css'
 
 const Bookmarks = (props) => {
     const bookmarks = props.bookmarks;
-    // addedBlogTitle = props.addedBlogTitle
     console.log()
 
     console.log('bookmarked : ',bookmarks);
@@ -27,19 +26,8 @@ const Bookmarks = (props) => {
         <div className='bookmarks'>
             <h3>Bookmarked Blogs : {quantity}</h3>
             {
-                bookmarks.map(bookmark =>{
-                    console.log('mapped title: ',bookmark.title);
-                    <p id='single-bookmark'>{props.addedBlogTitle}</p>
-
-                })};
-            {
                 title.map(t => <p id='single-bookmark'>{t} </p>)
             }
-            <p id='single-bookmark'>{props.addedBlogTitle}</p>
-            {/* <p id='single-bookmark'>{bookmarks.title}</p> */}
-
-            
-            <p id='single-bookmark'>trrtryerr </p>
 
         </div>
     );

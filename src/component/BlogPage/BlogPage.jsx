@@ -17,11 +17,41 @@ const BlogPage = () => {
         .then(data => setBlogs(data))
 
     },[])
-    const [totalTime,setTotalTime] = useState(0);
+
+    //reading time calculation
+    const storedTime2 = JSON.parse(localStorage.getItem('total-time'));
+    const [totalTime,setTotalTime] = useState(storedTime2);
+
+    const [clickedTime,setclickedTime] = useState(0);
 
     const markAsReadhandler = (blog) =>{
-        setTotalTime(totalTime+parseInt(blog.time));
+        setclickedTime(parseInt(blog.time))
+        const storedTime2 = JSON.parse(localStorage.getItem('total-time'));
+        setTotalTime(storedTime2+parseInt(blog.time));
+        // const storedTime2 = JSON.parse(localStorage.getItem('total-time'));
+        // setTotalTime(storedTime2+parseInt(blog.time));
     }
+    console.log('THis is clicked time', clickedTime)
+    useEffect(()=>{
+        const storedTime = JSON.parse(localStorage.getItem('total-time'));
+        let time  =  storedTime + clickedTime;
+        // let time  =  storedTime + totalTime ;
+
+        // localStorage.setItem('total-time', JSON.stringify(time));
+
+        // localStorage.setItem('total-time', JSON.stringify(time + storedTime));
+        localStorage.setItem('total-time', JSON.stringify(time));
+        // time = time - storedTime -totalTime;
+
+    },[totalTime])
+    
+
+    // const markAsReadhandler = (blog) =>{
+    //     setTotalTime(totalTime+parseInt(blog.time));
+    // }
+    // localStorage.setItem('total-time', JSON.stringify(totalTime));
+    
+    //Bookmark
 
     const [bookmarks,setBookmarks] = useState([]);
 

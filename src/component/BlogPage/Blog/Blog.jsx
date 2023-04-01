@@ -6,8 +6,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Blog = (props) => {
     console.log('Props :',props);
     console.log('blog :',props.blog);
-    
-    // console.log('key :',props.key);
+
     const markAsReadhandler = props.markAsReadhandler;
     const bookmarkHandler = props.bookmarkHandler;
     const {title, img,author, authorImg,date,time,tags,id} = props.blog; 
@@ -17,7 +16,6 @@ const Blog = (props) => {
             {
 
                 <div>
-                    <h1>{id}</h1>
                     <img src={img} alt="" />
                 
                     <div className='blog-header'>
@@ -32,7 +30,7 @@ const Blog = (props) => {
                     </div>
                 
                     <h3 id='blog-title'>{title}</h3>
-                    <p id='tags'>{tags}</p>
+                    <p id='tags'>#{tags.join(' #')}</p>
                     
                     <button onClick={()=>{markAsReadhandler(props.blog)}} href='/'>Mark as Read</button>
 
