@@ -3,7 +3,7 @@ import './QusAnswer.css'
 
 const QusAnswer = () => {
     return (
-        <div className='qus-answer-container'>
+        <div className='qus-answer-container' id='blog'>
             <div className="odd">
                 <h3>Props vs state</h3>
                 <p>Ans:

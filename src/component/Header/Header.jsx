@@ -10,7 +10,7 @@ const Header = () => {
                 <img src={logo} className="logo" alt="Knowdledge logo" />
             </a>
             <div className="link-wrapper">
-                <a href="/blog">Blog</a>
+                <a href="#blog">Blog</a>
                 <a href="https://vitejs.dev" target="_blank">
                     <img src={siteAuthor} className="site-author" alt="Knowdledge logo" />
                 </a>

@@ -3,6 +3,8 @@ import Blog from './Blog/Blog';
 import "./BlogPage.css";
 import Sidebar from './Sidebar/Sidebar';
 import { addToDb, getShoppingCart } from '../../utilities/fakedb';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 
 
@@ -19,9 +21,12 @@ const BlogPage = () => {
     },[])
 
     //reading time calculation
-    const storedTime2 = JSON.parse(localStorage.getItem('total-time'));
+    let storedTime2 = JSON.parse(localStorage.getItem('total-time'));
+    if(!storedTime2){
+        storedTime2 = 0;
+    }
     const [totalTime,setTotalTime] = useState(storedTime2);
-
+//
     const [clickedTime,setclickedTime] = useState(0);
 
     const markAsReadhandler = (blog) =>{
@@ -50,13 +55,21 @@ const BlogPage = () => {
         for(const id in storedBookmark){
             //step-2: get product details using id
             const addedBookmark = blogs.find(blog=>blog.id===id);
+            // if(addedBookmark){
+            //     toast("Warning:You have already Bookmarked this blog");
+            //     console.log('quantity grater then 1');
+            // }
             //step-3: set no of quantity that is added to cart 
             if(addedBookmark){
                 const quantity = storedBookmark[id];
                 addedBookmark.quantity = quantity;
                 //step-4: Add the addedBookmark to the savedProduct
                 savedBookmark.push(addedBookmark);
+                
+                
             }
+            
+
             console.log('addedBookmark: ',addedBookmark);
             console.log('savedBookmark: ',savedBookmark);
         }
@@ -69,6 +82,7 @@ const BlogPage = () => {
         console.log('clicked : ',blog.title);
         console.log('Quantity' ,blog.quantity);
         // setBookmarks(blog.title);
+
 
         // const addedBlogTitle = blog.title;
 
