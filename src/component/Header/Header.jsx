@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Header.css";
 // import {logo} from '../../../public/cptutors.png';
-import logo from '../../../public/cptutors.png'
-import siteAuthor from '../../../public/thamidtuhin74.png'
+import logo from '/cptutors.png'
+import siteAuthor from '/thamidtuhin74.png'
 const Header = () => {
     return (
         <div className='header-container'>

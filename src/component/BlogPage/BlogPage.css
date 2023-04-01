@@ -10,6 +10,7 @@
 }
 .sidebar{
     width: 100%;
+    position: relative;
 }
 @media only screen and (max-device-width: 480px) {
     .blog-page-container{
