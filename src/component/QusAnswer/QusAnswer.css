@@ -1,0 +1,27 @@
+.qus-answer-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 50px 0px;
+}
+.odd{
+    background: #eeececdc;
+    /* color: rgb(80, 139, 226); */
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+.even{
+    background: #eeececdc;
+    /* color: rgb(226, 80, 223); */
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+.even h3{
+    color: rgb(226, 80, 223);
+}
+.odd h3{
+    color: rgb(80, 139, 226);
+
+}

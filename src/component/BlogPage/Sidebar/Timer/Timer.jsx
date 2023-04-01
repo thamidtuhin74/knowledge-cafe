@@ -6,7 +6,7 @@ const Timer = (props) => {
 
     return (
         <div className='timmer'>
-            <h3>Spend time or read : {props.totalTime}</h3>
+            <h3>Spend time or read : {props.totalTime} min</h3>
         </div>
     );
 };

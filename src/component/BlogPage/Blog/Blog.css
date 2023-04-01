@@ -48,7 +48,7 @@
     /* or 38px */
 
     margin: 0;
-    color: #111111;
+    color: #6047ec;
 }
 #blog-title{
     font-style: normal;
@@ -65,3 +65,15 @@
     margin-top: 16px;
     margin-bottom: 20px;
 }
+.btn-markAsRead{
+    color: #6047ec;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    border: none;
+    text-decoration: underline;
+}
+.btn-markAsRead:focus-visible {
+    outline: 0px;
+  }

@@ -30,9 +30,9 @@ const Blog = (props) => {
                     </div>
                 
                     <h3 id='blog-title'>{title}</h3>
-                    <p id='tags'>#{tags.join(' #')}</p>
+                    <p id='tags'>#{tags.join('  #')}</p>
                     
-                    <button onClick={()=>{markAsReadhandler(props.blog)}} href='/'>Mark as Read</button>
+                    <button className='btn-markAsRead' onClick={()=>{markAsReadhandler(props.blog)}} href='/'>Mark as Read</button>
 
                 </div>
                 

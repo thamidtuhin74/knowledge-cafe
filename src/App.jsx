@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Header from './component/Header/Header'
 import BlogPage from './component/BlogPage/BlogPage'
+import QusAnswer from './component/QusAnswer/QusAnswer'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       
       <Header></Header>
       <BlogPage></BlogPage>
+      <QusAnswer></QusAnswer>
       
     </div>
   )

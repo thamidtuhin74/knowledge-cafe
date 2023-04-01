@@ -35,23 +35,10 @@ const BlogPage = () => {
     useEffect(()=>{
         const storedTime = JSON.parse(localStorage.getItem('total-time'));
         let time  =  storedTime + clickedTime;
-        // let time  =  storedTime + totalTime ;
-
-        // localStorage.setItem('total-time', JSON.stringify(time));
-
-        // localStorage.setItem('total-time', JSON.stringify(time + storedTime));
         localStorage.setItem('total-time', JSON.stringify(time));
-        // time = time - storedTime -totalTime;
 
     },[totalTime])
     
-
-    // const markAsReadhandler = (blog) =>{
-    //     setTotalTime(totalTime+parseInt(blog.time));
-    // }
-    // localStorage.setItem('total-time', JSON.stringify(totalTime));
-    
-    //Bookmark
 
     const [bookmarks,setBookmarks] = useState([]);
 
